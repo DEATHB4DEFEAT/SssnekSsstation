@@ -41,6 +41,7 @@
       defaultMarkings: [ LamiaBottom ]
     Snout:
       points: 0
+      required: false
     HeadTop:
       points: 2
       required: false
