@@ -32,10 +32,30 @@
     Hair:
       points: 1
       required: false
+    FacialHair:
+      points: 1
+      required: false
     Tail:
       points: 1
       required: true
       defaultMarkings: [ LamiaBottom ]
+    Snout:
+      points: 0
+    HeadTop:
+      points: 2
+      required: false
+    HeadSide:
+      points: 1
+      required: false
+    Chest:
+      points: 1
+      required: false
+    Legs:
+      points: 2
+      required: false
+    Arms:
+      points: 2
+      required: false
 
 - type: markingPoints
   id: MobLamiaSegmentMarkingLimits
@@ -50,13 +70,21 @@
   sprites:
     Head: MobHumanHead
     Hair: MobHumanoidAnyMarking
+    FacialHair: MobHumanoidAnyMarking
+    Snout: MobHumanoidAnyMarking
     Chest: MobHumanTorso
+    HeadTop: MobHumanoidAnyMarking
+    HeadSide: MobHumanoidAnyMarking
+    Tail: MobHumanoidAnyMarking
     Eyes: MobHumanoidEyes
     LArm: MobHumanLArm
     RArm: MobHumanRArm
     LHand: MobHumanLHand
     RHand: MobHumanRHand
-    Tail: MobHumanoidAnyMarking
+    LLeg: MobHumanLLeg
+    RLeg: MobHumanRLeg
+    LFoot: MobHumanLFoot
+    RFoot: MobHumanRFoot
 
 - type: speciesBaseSprites
   id: MobLamiaSegmentSprites
