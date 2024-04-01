@@ -11,7 +11,7 @@ enabled = true
 pathfinding = true
 
 [server]
-rules_file = "Parkstation/ParkstationRules.txt"
+rules_file = "SimpleStation14/ParkstationRules.txt"
 id = "snekstation"
 
 [rules]
