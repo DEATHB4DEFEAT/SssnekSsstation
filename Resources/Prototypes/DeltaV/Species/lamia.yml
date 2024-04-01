@@ -82,10 +82,6 @@
     RArm: MobHumanRArm
     LHand: MobHumanLHand
     RHand: MobHumanRHand
-    LLeg: MobHumanLLeg
-    RLeg: MobHumanRLeg
-    LFoot: MobHumanLFoot
-    RFoot: MobHumanRFoot
 
 - type: speciesBaseSprites
   id: MobLamiaSegmentSprites
