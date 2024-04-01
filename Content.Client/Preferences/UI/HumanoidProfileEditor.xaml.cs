@@ -994,7 +994,12 @@ namespace Content.Client.Preferences.UI
 
             var speciesIndex = _speciesList.FindIndex(x => x.ID == Profile.Species);
             if (speciesIndex == -1)
-                speciesIndex = 0;
+                speciesIndex = _speciesList.FindIndex(x => x == _speciesList.First());
+            if (speciesIndex == -1)
+            {
+                Logger.Error("There aren't any species?");
+                return;
+            }
 
             CSpeciesButton.Select(speciesIndex);
         }
