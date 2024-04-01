@@ -3,7 +3,7 @@ hostname = "🐍 | SssnekSsstation"
 desc = "An English HRP server with a love for sneks."
 lobbyenabled = true
 lobbyduration = 180
-role_timers = true
+role_timers = false
 fallbackpreset = "extended"
 
 [npc]
@@ -13,9 +13,6 @@ pathfinding = true
 [server]
 rules_file = "SimpleStation14/ParkstationRules.txt"
 id = "snekstation"
-
-[rules]
-time = 120
 
 [traitor]
 min_players = 2
