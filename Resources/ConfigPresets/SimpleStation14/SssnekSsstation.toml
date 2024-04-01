@@ -1,15 +1,10 @@
 [game]
 hostname = "🐍 | SssnekSsstation"
 desc = "An English HRP server with a love for sneks."
-maxplayers = -1
-# soft_max_players = 48
 lobbyenabled = true
 lobbyduration = 180
 role_timers = true
 fallbackpreset = "extended"
-# map_pool = "ParkMapPool"
-# loadouts_enabled = true
-# loadouts_points = 14
 
 [npc]
 enabled = true
@@ -19,19 +14,8 @@ pathfinding = true
 rules_file = "Parkstation/ParkstationRules.txt"
 id = "snekstation"
 
-# [whitelist]
-# enabled = true
-# min_players = 24
-
-# [queue]
-# enabled = true
-
 [rules]
 time = 120
-
-# [events]
-# ramping_average_end_time = 120.0
-# ramping_average_chaos = 7.0
 
 [traitor]
 min_players = 2
@@ -98,9 +82,6 @@ log_late_msg = false
 discord = "https://discord.gg/49KeKwXc8g"
 github = "https://github.com/Simple-Station/SssnekSsstation"
 patreon = "https://www.patreon.com/simple14"
-
-# [admin]
-# new_player_join_sound = true
 
 
 [build]
