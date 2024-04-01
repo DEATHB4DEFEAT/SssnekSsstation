@@ -992,7 +992,11 @@ namespace Content.Client.Preferences.UI
                 return;
             }
 
-            CSpeciesButton.Select(_speciesList.FindIndex(x => x.ID == Profile.Species));
+            var speciesIndex = _speciesList.FindIndex(x => x.ID == Profile.Species);
+            if (speciesIndex == -1)
+                speciesIndex = 0;
+
+            CSpeciesButton.Select(speciesIndex);
         }
 
         private void UpdateGenderControls()
